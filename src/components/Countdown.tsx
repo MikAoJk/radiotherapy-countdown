@@ -90,7 +90,7 @@ const timeLeft = (seconds: number) => {
     timeLeft.sec = seconds;
 
     // TODO find out why year is 52082, when countdown time i passed
-    if (timeLeft.years === 52082 || timeLeft.years === 55249 || timeLeft.days == 146 || (timeLeft.days == 34 && timeLeft.hours == 22)) {
+    if (timeLeft.years === 52082 || timeLeft.years === 55249 || timeLeft.days == 146 || (timeLeft.days == 34 && timeLeft.hours == 22) || timeLeft.days == 118) {
         return setTimeleftToZero(timeLeft)
     }
 
